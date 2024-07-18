@@ -1,6 +1,6 @@
-# My Project
+# Dutch Telegram News Bot
 
-This repository contains the source code for a project that includes functionality for scheduling tasks, fetching the latest news, and interacting with Telegram. 
+This repository contains the source code for a project that includes functionality for scheduling news feeds, fetching the latest news, and sending them to a Telegram bot. 
 
 ## Table of Contents
 - [Installation](#installation)
