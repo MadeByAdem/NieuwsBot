@@ -13,6 +13,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 SECRET_KEY = os.environ.get("SECRET_KEY")
+print(SECRET_KEY)
 
 # Nieuws Feed bot
 BOT_TOKEN=os.environ.get("BOT_TOKEN")
@@ -25,6 +26,7 @@ avondservice_users_list = "./user_lists/avondservice_users.txt"
 
 
 if not SECRET_KEY:
+    logging.error("Secret key not set. Make sure to set the environment variable.")
     raise ValueError("Secret key not set. Make sure to set the environment variable.")
 
 # Create logs directory if it doesn't exist
