@@ -70,7 +70,7 @@ WantedBy=default.target
 ```
 
 ### nieuwsbot-schedule.service
-Create a file named `nieuwsbot-schedule.service` with the following content:
+Create a file named `nieuwsbot-schedule.service` with the following content and adjust the path to the python file:
 
 ```ini
 [Unit]
