@@ -5,3 +5,4 @@ latest_news
 Fernet
 ratelimit
 cryptography
+python-dotenv

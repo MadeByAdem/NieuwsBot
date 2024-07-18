@@ -7,6 +7,10 @@ from telebot import types
 from cryptography.fernet import Fernet, InvalidToken
 import os
 import re
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
