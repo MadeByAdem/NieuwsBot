@@ -27,6 +27,7 @@ cp .env.example .env
 
 ## Environment Variables
 `BOT_TOKEN`: Your Telegram bot API key.
+
 `SECRET_KEY`: Encryption key.
 
 ## Usage
