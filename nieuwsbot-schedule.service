@@ -1,0 +1,11 @@
+[Unit]
+Description=NieuwsBot
+
+[Service]
+ExecStart=/your/path/to/nieuwsbot/venv/bin/python /your/path/to/nieuwsbot/schedule_utils.py
+WorkingDirectory=/your/path/to/nieuwsbot
+Restart=always
+User=root
+
+[Install]
+WantedBy=default.target

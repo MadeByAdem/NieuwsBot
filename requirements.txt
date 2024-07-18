@@ -1,0 +1,7 @@
+feedparser
+telebot
+schedule
+latest_news
+Fernet
+ratelimit
+cryptography

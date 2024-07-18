@@ -1,0 +1,7 @@
+.env
+user_lists/
+user_lists/*
+logs
+./logs/*
+venv
+__pycache__
