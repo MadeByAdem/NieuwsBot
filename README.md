@@ -30,6 +30,7 @@ cp .env.example .env
 - Python 3.x
 - `pip` package manager
 - A Telegram bot token. You can get one by creating a bot through the [BotFather](https://core.telegram.org/bots#botfather).
+- Encryption key. [Check documentation how to get one](https://cryptography.io/en/latest/fernet/).
 
 ## Environment Variables
 `BOT_TOKEN`: Your Telegram bot API key.
