@@ -25,6 +25,12 @@ Make sure to configure the environment variables needed for your project. You ca
 cp .env.example .env
 ```
 
+### Prerequisites
+
+- Python 3.x
+- `pip` package manager
+- A Telegram bot token. You can get one by creating a bot through the [BotFather](https://core.telegram.org/bots#botfather).
+
 ## Environment Variables
 `BOT_TOKEN`: Your Telegram bot API key.
 
